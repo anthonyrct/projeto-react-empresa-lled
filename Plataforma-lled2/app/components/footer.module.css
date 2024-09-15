@@ -1,0 +1,26 @@
+/* footer.module.css */
+.footer {
+    position: fixed; /* Fixar na parte inferior da tela */
+    bottom: 0; /* Posicionar na parte inferior */
+    left: 0; /* Começar a partir do canto esquerdo */
+    width: 100%; /* Largura completa */
+    color: #ffff;
+    background-color: #000000; /* Cor de fundo do footer */
+    padding: 10px; /* Espaçamento interno */
+    display: flex; /* Flexbox para alinhamento */
+    justify-content: space-between; /* Espaço entre itens */
+    align-items: center; /* Alinhar itens no centro verticalmente */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Sombra para efeito de profundidade */
+    z-index: 1000; /* Certificar que o footer fique acima do conteúdo */
+  }
+  
+  .footerLeft {
+    font-size: 14px;
+  }
+  
+  .footerRight {
+    display: flex;
+    align-items: center;
+    margin-right: 300px;
+  }
+  

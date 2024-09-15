@@ -1,0 +1,33 @@
+/* components/Header.module.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FBD23F;
+    width: 100%; /* Faz o cabeçalho ocupar toda a largura da página */
+    box-sizing: border-box; /* Inclui padding e bordas no cálculo da largura */
+  }
+  
+
+  
+ 
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #716968;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 400px;
+    
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave no hover */
+  }
+  
+  .button:hover {
+    background-color: #000000; /* Mudança de cor no hover para diferenciar */
+  }
+  
